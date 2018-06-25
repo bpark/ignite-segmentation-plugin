@@ -30,7 +30,7 @@ A sample configuration looks like this:
 </bean>
 ```
 
-| Parameter     | Values        | Default  |
+| Parameter     | Description        | Default  |
 | ------------- |---------------| ------|
 | timeout       | The timeout in milliseconds after the connection test fails | 200 |
 | ttl      | The maximum numbers of hops to try.      |   0 |
@@ -38,7 +38,7 @@ A sample configuration looks like this:
 | consistency  | defines the number of reachable hosts to pass the segmentation test, possible values are ONE, QUORUM and ALL  |   QUORUM |
 | topologyHosts  | list of hosts to check, the current node tests the reachability of each element in the list, the consistency is evaluated on the result based on this list | none, but required |
 
-</bean>
+
 ## Build
 
 To build the example simply type
