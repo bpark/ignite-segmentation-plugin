@@ -41,7 +41,7 @@ A sample configuration looks like this:
 
 ## Build
 
-To build the example simply type
+To build the plugin simply type
 
 ```mvn clean install```
 
