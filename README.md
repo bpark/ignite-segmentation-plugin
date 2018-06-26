@@ -1,7 +1,7 @@
 # ignite-segmentation-plugin
 This is a simple segmentation plugin for Apache Ignite, as Apache Ignite does not provide any segmentation plugin implementation.
 
-This plugin provides a basic segmentation implementation based on Javas InetAddress isReachable implementation.
+This plugin provides a basic segmentation implementation based on Java InetAddress isReachable implementation.
 
 ## Configuration
 
