@@ -3,6 +3,11 @@ This is a simple segmentation plugin for Apache Ignite, as Apache Ignite does no
 
 This plugin provides a basic segmentation implementation based on Java InetAddress isReachable implementation.
 
+## Note
+Please consider, that ```InetAddress.isReachable``` requires sudo permissions
+to be executed correctly. Please test if the call is working in your environment before you use this resolver,
+otherwise the segmentation test will always fail!
+
 ## Configuration
 
 A sample configuration looks like this:

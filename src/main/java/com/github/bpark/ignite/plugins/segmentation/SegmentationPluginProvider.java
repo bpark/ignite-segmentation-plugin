@@ -46,7 +46,7 @@ public class SegmentationPluginProvider implements PluginProvider<SegmentationPl
 
     @Override
     public String copyright() {
-        return "bpark 2018";
+        return "Copyright - bpark 2018";
     }
 
     @Override
