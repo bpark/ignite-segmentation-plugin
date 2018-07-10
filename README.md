@@ -11,7 +11,7 @@ A sample configuration looks like this:
 <bean id="flinkcache-cfg" class="org.apache.ignite.configuration.IgniteConfiguration">
   
   <property name="segmentationResolvers">
-      <bean class="com.financial.feedgrid.shared.plugins.ReachableSegmentationResolver">
+      <bean class="com.github.bpark.ignite.plugins.segmentation.ReachableSegmentationResolver">
           <property name="timeout" value="1000"/>
           <property name="networkInterface" value="eth0"/>
           <property name="consistency" value="QUORUM"/>
