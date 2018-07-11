@@ -9,3 +9,6 @@ services:
       - "47100:47100"
       - "47500:47500"
       - "49112:49112"
+      - "8080:8080"
+    environment:
+      OPTION_LIBS: "ignite-rest-http"
