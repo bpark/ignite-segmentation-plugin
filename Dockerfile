@@ -1,4 +1,4 @@
-FROM apacheignite/ignite:2.6.0
+FROM apacheignite/ignite:2.7.0
 
 COPY ./demo-cache.config.xml $IGNITE_HOME/config/.
 
